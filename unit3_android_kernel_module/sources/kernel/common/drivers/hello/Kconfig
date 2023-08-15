@@ -1,0 +1,9 @@
+# Device Hello configuration
+# By BHien 
+menuconfig HELLO
+    tristate "Hello String"
+    default y
+    help
+      Say Y to include this module
+      Say N will not build this module
+      Say M to build this module but not include to kernel yet

@@ -1,0 +1,14 @@
+aidl_interface {
+    name: "android.hardware.hello",
+    vendor: true,
+    srcs: ["android/hardware/hello/*.aidl"],
+    owner: "BHien",
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            sdk_version: "module_current",
+        },
+    },
+}
